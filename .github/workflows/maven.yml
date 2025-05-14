@@ -28,8 +28,7 @@ jobs:
     
     - name: Run tests
       run: mvn test
-      
+
     - name: Simulate Deployment
-        if: ${{ success() }}
         run: |
           echo "✅ Simulasi Deployment: Aplikasi berhasil di-deploy ke staging/production"
