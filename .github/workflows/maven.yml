@@ -30,4 +30,4 @@ jobs:
       run: mvn test
 
     - name: Simulate Deployment
-      run: echo "✅ Simulasi Deployment: Aplikasi berhasil di-deploy ke staging/production"
+      run: echo "Simulasi Deployment Aplikasi berhasil di-deploy ke staging/production"
