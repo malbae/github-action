@@ -6,16 +6,16 @@ public class Driver {
 		
 		Counter counter = new Counter();
 		
-		System.out.println("Count:" + counter.getCount());
+		System.out.println("Count: " + counter.getCount());
 		
 		counter.increment();
-		
-		System.out.println("Count:" + counter.getCount());
+		System.out.println("Count after increment: " + counter.getCount());
 		
 		counter.decrement();
-		
-		System.out.println("Count:" + counter.getCount());
-		
-	}
+		System.out.println("Count after decrement: " + counter.getCount());
 
+		// Pemanggilan fungsi tambahan: reset
+		counter.reset();
+		System.out.println("Count after reset: " + counter.getCount());
+	}
 }
